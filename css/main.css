@@ -1,3 +1,5 @@
+
+
 .inner{
     width: 1440px;
     margin: 0 auto;
@@ -32,4 +34,12 @@ nav ul li{
     width: 467px;
     height: 607px;
     border: 1px solid red;
+}
+
+
+/* main > accessory 구역 */
+.accBox{
+    width: 467px;
+    height: 600px;
+    background-color:#E1D8F0;
 }
