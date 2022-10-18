@@ -6,18 +6,30 @@
 
 
 /* header */
-
+h1{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    height: 30px;
+    line-height: 30px;
+}
 
 /* main */
-
 
 
 /* main > fragrance 구역 */
 .fragrance{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .fragranceItem img{
     width: 467px;
     height: 607px;
+    border: 1px solid red;
 }
