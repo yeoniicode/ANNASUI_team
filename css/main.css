@@ -1,11 +1,17 @@
 
 
 .inner{
-    width: 1440px;
+    width: 1024px;
     margin: 0 auto;
     border: 2px solid red;
 }
-
+section{
+    margin-top: 5rem;
+}
+h2{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
 
 /* header */
 h1{
@@ -26,20 +32,35 @@ nav ul li{
 
 
 /* main > fragrance 구역 */
-.fragrance{
+.fragrance {
     display: flex;
     justify-content: space-between;
 }
 .fragranceItem img{
-    width: 467px;
-    height: 607px;
+    width: 330px;
+    height: 446px;
     border: 1px solid red;
 }
 
 
 /* main > accessory 구역 */
-.accBox{
-    width: 467px;
-    height: 600px;
+.acceBox, .bag{
+    width: 315px;
+    height: 405px;
     background-color:#E1D8F0;
+    padding: 50px;
+}
+.acceBox p, .bag p{
+    font-size:2rem;
+    font-weight: bold;
+    padding-bottom: 1.6rem;
+}
+.acceBox pre, .bag pre{
+    font-size: 1rem;
+    
+}
+
+/* main > bestItem 구역 */
+.bestItemSec p{
+    font-size: 1.2rem;
 }
