@@ -1,0 +1,23 @@
+.inner{
+    width: 1440px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+
+/* header */
+
+
+/* main */
+
+
+
+/* main > fragrance 구역 */
+.fragrance{
+    display: flex;
+    justify-content: space-around;
+}
+.fragranceItem img{
+    width: 467px;
+    height: 607px;
+}
