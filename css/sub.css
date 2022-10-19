@@ -1,3 +1,20 @@
 .text-uppercase {
    text-transform: uppercase
  }
+
+ .inner{
+   width: 1024px;
+   margin: 0 auto;
+ }
+ .mainVisual{
+   width: 1024px;
+   height: 775px;
+   background-color: #CD8DBC;
+ }
+ .mainVisual h1{
+
+ }
+ .mainVisual img{
+   width: 647px;
+   height: 700px;
+ }
