@@ -1,20 +1,120 @@
-.text-uppercase {
-   text-transform: uppercase
- }
 
  .inner{
-   width: 1024px;
-   margin: 0 auto;
- }
- .mainVisual{
-   width: 1024px;
-   height: 775px;
-   background-color: #CD8DBC;
- }
- .mainVisual h1{
+  width: 1024px;
+  margin: 0 auto;
+}
 
- }
- .mainVisual img{
-   width: 647px;
-   height: 700px;
+/*mainVisual*/
+
+.mainVisual{
+  width: 1024px;
+  height: 595px;
+  background-color: #CD8DBC;
+}
+.mainTitle{
+ position:relative;
+ top: 350px;
+ left: 30px;
+}
+.mainImg{
+ width: 615px;
+ height: 586px;
+ position: relative;
+ top: -30px;
+ left: 350px;
+}
+.mainText{
+ width: 400px;
+ position:relative;
+ top: -230px;
+ left: 30px;
+}
+
+ /*bestCategory*/
+
+
+
+
+/**/
+
+.white{
+  color: white;
+}
+.italic{
+  font-style: italic;
+}
+.bold{
+  font-weight: 900;
+}
+.font14{
+  font-size: 14px;
+  font-size: 0.7rem;
+}
+.font16{
+  font-size: 16px;
+  font-size: 0.8rem;
+}
+.font18{
+  font-size: 18px;
+  font-size: 0.9rem;
+}
+.font20{
+  font-size: 20px;
+  font-size: 1rem;
+}
+.font24{
+  font-size: 24px;
+  font-size: 1.2rem;
+}
+.font28{
+  font-size: 28px;
+  font-size: 1.4rem;
+}
+.font30{
+  font-size: 30px;
+  font-size: 1.5rem;
+}
+.font36{
+  font-size: 36px;
+  font-size: 1.8rem;
+}
+.font48{
+  font-size: 48px;
+  font-size: 2.4rem;
+}
+.font60{
+  font-size: 60px;
+  font-size: 3rem;
+}
+.font72{
+  font-size: 72px;
+  font-size: 3.6rem;
+}
+.margintop-50{
+  margin-top: 50px;
+}
+.marginright-50{
+  margin-right: 50px;
+}
+.marginbottom-50{
+  margin-bottom: 50px;
+}
+.marginleft-50{
+  margin-left: 50px;
+}
+.paddingtop-50{
+  padding-top: 50px;
+}
+.paddingright-50{
+  padding-right: 50px;
+}
+.paddingbottom-50{
+  padding-bottom: 50px;
+}
+.paddingleft-50{
+  padding-left: 50px;
+}
+
+.text-uppercase {
+   text-transform: uppercase
  }
