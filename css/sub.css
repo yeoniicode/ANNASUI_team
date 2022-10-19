@@ -31,11 +31,22 @@
 }
 
  /*bestCategory*/
+.product{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  text-align: center;
+}
+.product img{
+  width: auto;
+  height: 391px;
+}
+.pro1{
+  outline: 1px solid blue;
+}
 
 
-
-
-/**/
+/*편리도구들*/
 
 .white{
   color: white;
