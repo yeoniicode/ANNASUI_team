@@ -41,6 +41,12 @@ nav ul li{
     height: 446px;
     border: 1px solid red;
 }
+.fragranceItem a:hover:before{
+    content:"";
+    position: absolute;
+    width: 330px; height: 446px;
+    background:rgba(255,255,255,.3);
+}
 
 
 /* main > accessory 구역 */
