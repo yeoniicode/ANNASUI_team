@@ -85,6 +85,9 @@ nav ul li{
     }
 
 /* main > accessory 구역 */
+.accessory{
+    position: relative;
+}
 .acceBox, .bag{
     width: 315px;
     height: 405px;
@@ -97,10 +100,18 @@ nav ul li{
     padding-bottom: 1.6rem;
 }
 .acceBox pre, .bag pre{
-    font-size: 1rem;
-    
+    font-size: 1rem;   
 }
-
+.sliderBox{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    border: 1px solid red;
+}
+.accSlide{
+    width: 30%;
+    background-color: #8F79B7;
+}
 /* main > bestItem 구역 */
 .bestItemSec p{
     font-size: 1.2rem;

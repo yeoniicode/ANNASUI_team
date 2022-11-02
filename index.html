@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
     <header>
@@ -96,10 +99,15 @@ ipsa quasi impedit molestiae ratione?
 Lorem ipsum dolor, sit amet consectetur
 adipisicingelit. Voluptatibus obcaecati
 aliquam eveniet maiores saepe quia corrupti 
-et libero at tempore! </pre>
+et libero at tempore!</pre> 
                 </div>
                 <div class="sliderBox">
-
+                    <div class="accSlide">1</div>
+                    <div class="accSlide">2</div>
+                    <div class="accSlide">3</div>
+                    <div class="accSlide">4</div>
+                    <div class="accSlide">5</div>
+                    <div class="accSlide">6</div>
                 </div>
             </section>
             <section class="bag">
@@ -120,9 +128,6 @@ Lorem ipsum dolor, sit amet consectetur
 adipisicingelit. Voluptatibus obcaecati
 aliquam eveniet maiores saepe quia corrupti 
 et libero at tempore! </pre>
-            <div class="sliderBox">
-
-            </div>
             </section>
             <section class="bestItem">
                 
@@ -142,4 +147,33 @@ et libero at tempore! </pre>
     </main>
     <footer></footer>
 </body>
+<script>
+$(function(){
+    $('.sliderBox').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+            }
+        ]
+    });
+});
+</script>
 </html>
