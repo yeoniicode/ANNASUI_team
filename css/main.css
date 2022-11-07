@@ -109,11 +109,31 @@ nav ul li{
     border: 1px solid red;
 }
 .accSlide{
-    width: 30%;
     background-color: #8F79B7;
 }
 /* main > bestItem 구역 */
+.bestItem {
+    display:flex;
+}
+.bestItemSecTitle{
+    width: 40%;
+    text-align: center;
+    padding-top: 130px;
+}
+.bestItemSec{
+    width: 60%;
+}
 .bestItemSec p{
     font-size: 1.2rem;
 }
+.bestItemSec img{
+    width: 250px;
+    margin-left:50px;
+    border:1px solid red;
+}
+.bestItemSec img:nth-child(2n){
+    margin-top: 50px;
+}
+
+
 
