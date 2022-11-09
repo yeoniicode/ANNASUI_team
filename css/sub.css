@@ -10,6 +10,7 @@
   width: 1024px;
   height: 595px;
   background-color: #CD8DBC;
+  margin-bottom: 248px;
 }
 .mainTitle{
  position:relative;
@@ -31,6 +32,13 @@
 }
 
  /*bestCategory*/
+.bestCategory h2{
+  text-align: center;
+  font-size: 30px;
+}
+.recommendToggle{
+  text-align: right;
+}
 .product{
   display: flex;
   flex-wrap: wrap;
@@ -40,14 +48,31 @@
 .product img{
   width: auto;
   height: 391px;
+  margin-bottom: 40px;
 }
-.pro1{
-  outline: 1px solid blue;
+.product p a{
+  padding: 15px 87px;
+  color: #333;
+}
+.proName{
+  margin-top: 40px;
+  line-height: 35px;
+  letter-spacing: 0.17rem;
+  text-transform: uppercase;
+}
+.proPrice{
+  margin-top: 10px;
+  line-height: 35px;
 }
 
 
 /*편리도구들*/
-
+.lavender{
+  background-color: #E1D8F0;
+}
+.text_uppercase{
+  text-transform: uppercase;
+}
 .white{
   color: white;
 }
